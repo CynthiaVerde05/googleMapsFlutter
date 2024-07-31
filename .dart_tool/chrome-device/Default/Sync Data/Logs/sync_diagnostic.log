@@ -1,0 +1,23 @@
+2024-07-31T14:28:59.840Z P:396 T:10420] SyncServiceImpl::Initialize,SyncState after the account was authenticated: NotSignedIn
+2024-07-31T14:29:01.858Z P:396 T:4020] SyncManagerImpl::ConfigureSyncer,Types to download: Encryption Keys
+2024-07-31T14:29:53.365Z P:396 T:10420] ModelLoadManager::Configure,Desired: Device Info, User Consents, Send Tab To Self, Encryption Keys preferred: Device Info, User Consents, Send Tab To Self, Encryption Keys
+2024-07-31T14:29:53.366Z P:396 T:10420] ModelLoadManager::LoadDesiredTypes,Desired: Device Info, User Consents, Send Tab To Self
+2024-07-31T14:29:53.380Z P:396 T:10420] ModelLoadManager::ModelLoadCallback,Load Device Info: success
+2024-07-31T14:29:53.381Z P:396 T:10420] ModelLoadManager::ModelLoadCallback,Load User Consents: success
+2024-07-31T14:29:53.382Z P:396 T:10420] ModelLoadManager::ModelLoadCallback,Load Send Tab To Self: success
+2024-07-31T14:29:53.382Z P:396 T:10420] ModelLoadManager::NotifyDelegateIfReadyForConfigure,All data types are ready for configuration
+2024-07-31T14:29:53.382Z P:396 T:10420] DataTypeManagerImpl::OnAllDataTypesReadyForConfigure,All data types are ready for configuration
+2024-07-31T14:29:53.382Z P:396 T:10420] DataTypeManagerImpl::StartNextConfiguration,Size: 3 front: Encryption Keys
+2024-07-31T14:29:53.382Z P:396 T:10420] DataTypeManagerImpl::PrepareConfigureParams,Add types: 
+2024-07-31T14:29:53.382Z P:396 T:2968] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-07-31T14:29:53.416Z P:396 T:10420] DataTypeManagerImpl::ConfigurationCompleted,Left: 2
+2024-07-31T14:29:53.416Z P:396 T:10420] DataTypeManagerImpl::StartNextConfiguration,Size: 2 front: Device Info, Send Tab To Self
+2024-07-31T14:29:53.416Z P:396 T:10420] DataTypeManagerImpl::PrepareConfigureParams,Add types: Device Info, Send Tab To Self, Encryption Keys
+2024-07-31T14:29:53.416Z P:396 T:2968] SyncManagerImpl::ConfigureSyncer,Types to download: Device Info, Send Tab To Self, Encryption Keys
+2024-07-31T14:29:53.637Z P:396 T:10420] DataTypeManagerImpl::ConfigurationCompleted,Left: 1
+2024-07-31T14:29:53.638Z P:396 T:10420] DataTypeManagerImpl::StartNextConfiguration,Size: 1 front: User Consents
+2024-07-31T14:29:53.638Z P:396 T:10420] DataTypeManagerImpl::PrepareConfigureParams,Add types: 
+2024-07-31T14:29:53.639Z P:396 T:2968] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-07-31T14:29:53.643Z P:396 T:10420] DataTypeManagerImpl::ConfigurationCompleted,Left: 0
+2024-07-31T14:29:54.204Z P:396 T:2968] Commit::PostAndProcessResponse,Device Info: Success
+2024-07-31T14:29:54.204Z P:396 T:2968] Commit::PostAndProcessResponse,User Consents: Success
